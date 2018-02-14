@@ -5,9 +5,9 @@ import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-public class Java10Demonstrator {
+class Java10Demonstrator {
 
-    public static void demonstrate(List<String> stringList, Map<String,String> stringMap, Set<Integer> intSet) {
+    static void demonstrate(List<String> stringList, Map<String,String> stringMap, Set<Integer> intSet) {
         System.out.println("Java 10 result:");
         simpleExamples();
         printLoops(stringList);

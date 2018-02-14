@@ -6,9 +6,9 @@ import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-public class Java9Demonstrator {
+class Java9Demonstrator {
 
-    public static void demonstrate(List<String> stringList, Map<String,String> stringMap, Set<Integer> intSet) {
+    static void demonstrate(List<String> stringList, Map<String,String> stringMap, Set<Integer> intSet) {
         System.out.println("Java 9 result:");
         simpleExamples();
         printLoops(stringList);
